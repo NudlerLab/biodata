@@ -1,0 +1,132 @@
+[
+  {
+    "key": "cells",
+    "diff": [
+      {
+        "valuelist": [
+          {
+            "execution_count": 1,
+            "cell_type": "code",
+            "metadata": {
+              "collapsed": false
+            },
+            "outputs": [
+              {
+                "execution_count": 1,
+                "data": {
+                  "text/plain": "5"
+                },
+                "metadata": {},
+                "output_type": "execute_result"
+              }
+            ],
+            "source": "x = 5\nx"
+          },
+          {
+            "execution_count": 2,
+            "cell_type": "code",
+            "metadata": {
+              "collapsed": false
+            },
+            "outputs": [
+              {
+                "execution_count": 2,
+                "data": {
+                  "text/plain": "6"
+                },
+                "metadata": {},
+                "output_type": "execute_result"
+              }
+            ],
+            "source": "y = 6\ny"
+          }
+        ],
+        "op": "addrange",
+        "key": 0
+      },
+      {
+        "key": 0,
+        "diff": [
+          {
+            "value": 3,
+            "key": "execution_count",
+            "op": "replace"
+          }
+        ],
+        "op": "patch"
+      },
+      {
+        "length": 4,
+        "op": "removerange",
+        "key": 1
+      },
+      {
+        "key": 5,
+        "diff": [
+          {
+            "value": 4,
+            "key": "execution_count",
+            "op": "replace"
+          },
+          {
+            "key": "outputs",
+            "diff": [
+              {
+                "key": 0,
+                "diff": [
+                  {
+                    "key": "data",
+                    "diff": [
+                      {
+                        "key": "text/plain",
+                        "diff": [
+                          {
+                            "key": 0,
+                            "op": "addrange",
+                            "valuelist": "8"
+                          },
+                          {
+                            "key": 0,
+                            "op": "removerange",
+                            "length": 2
+                          }
+                        ],
+                        "op": "patch"
+                      }
+                    ],
+                    "op": "patch"
+                  },
+                  {
+                    "value": 4,
+                    "key": "execution_count",
+                    "op": "replace"
+                  }
+                ],
+                "op": "patch"
+              }
+            ],
+            "op": "patch"
+          },
+          {
+            "key": "source",
+            "diff": [
+              {
+                "key": 4,
+                "op": "addrange",
+                "valuelist": "8"
+              },
+              {
+                "key": 4,
+                "op": "removerange",
+                "length": 2
+              }
+            ],
+            "op": "patch"
+          }
+        ],
+        "op": "patch"
+      }
+    ],
+    "op": "patch"
+  }
+]
